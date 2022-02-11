@@ -29,11 +29,8 @@ function App() {
           <Route path='/SignIn' element={<AllForm typeForm={signIn}/> }/>
           <Route path='/restartpass' element={<Repass /> }/>
           <Route path='/registration' element={<Registration /> }/>
-
         </Routes>
-
       </div>
-      {/* <AllForm /> */}
     </div >
 
   );

@@ -7,10 +7,18 @@ import glas from '../../assets/formIcon/glas.png'
 import { Link } from 'react-router-dom'
 
 const AllForm = ({typeForm}) => {
-
-    const [inputType, setInputType] = useState("password")
     const [login, setLogin] = useState()
     const [password, setPassword] = useState()
+
+    const inputType = useRef()
+
+    const seeInput = () =>{
+        if(inputType.current.type === "password"){
+            inputType.current.type = "text"
+        }else{
+            inputType.current.type = "password"
+        }
+    }
 
     const setTextLogin = (e) => {
         setLogin(e.currentTarget.value)
@@ -39,9 +47,9 @@ const AllForm = ({typeForm}) => {
                 <div className={style.wrapper_icon}>
                     <img className={style.input_icon} src={pass} alt="pass" />
                 </div>
-                <input onChange={setTextPassword} className={style.password} type={inputType} name="password" autoComplete='current-password' placeholder='Пароль' />
+                <input ref={inputType} onChange={setTextPassword} className={style.password} type="password" name="password" autoComplete='current-password' placeholder='Пароль' />
 
-                <img onClick={setInputType("text")} className={style.input_icon__glas} src={glas} alt="galss" />
+                <img onClick={seeInput} className={style.input_icon__glas} src={glas} alt="galss" />
 
             </div>
 
