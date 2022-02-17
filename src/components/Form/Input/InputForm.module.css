@@ -1,0 +1,51 @@
+.input_wrapper_icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9CBCDE;
+    width: 85px;
+    height: 85px;
+}
+
+.input_wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 670px;
+    height: 85px;
+    margin-top: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.eye {
+    position: absolute;
+    width: 28px;
+    height: 19px;
+    top: 33px;
+    right: 33px;
+}
+
+.input_login {
+    width: 100%;
+    border-top: 1px solid #BABABA;
+    border-right: 1px solid #BABABA;
+    border-bottom: 1px solid #BABABA;
+    border-left: none;
+    border-radius: 0 10px 10px 0;
+    padding-left: 15px;
+    outline: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #000000;
+    position: relative;
+}
+
+.eye_none{
+    display: none;
+}
+

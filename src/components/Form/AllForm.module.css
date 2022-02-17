@@ -1,0 +1,33 @@
+.form_authorization {
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 770px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 96px rgba(10, 9, 75, 0.21);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.titel_wrapper {
+    padding: 50px 0;
+    width: 770px;
+    background: linear-gradient(90.01deg, #2A8BF2 0.01%, #0A6CD6 99.99%);
+}
+
+.link_in {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 0 50px;
+}
+
+
+
+
+

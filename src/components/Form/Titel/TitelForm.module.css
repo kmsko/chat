@@ -1,0 +1,25 @@
+.titelForm {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.avatar_wrapper {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    background-color: #5FA4ED;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar_image {
+    width: 200px;
+    height: 200px;
+    margin-top: 21px;
+    object-fit: contain;
+}
